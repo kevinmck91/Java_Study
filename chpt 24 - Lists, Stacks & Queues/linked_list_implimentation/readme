@@ -1,0 +1,5 @@
+Single ended Linked-List from Scratch
+
+The linked list is a recursive set of objects stored within objects.
+'Head' is the first node therefore it is the largest object (longest chain of objects within objects)
+'Current' is an inclusive subset of 'Head' ie. A chain from any given node to the end of the chain 

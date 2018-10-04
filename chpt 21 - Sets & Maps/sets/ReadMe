@@ -1,0 +1,17 @@
+A Set is an interface
+
+A Set is a collection of elements stored in a certain fashion. 
+
+A set cannot store duplicates hence should be used to check for an occurrence of a object 
+
+3 types of sets can be extended from the set interface 
+
+1. HashSet
+2. LinkedHashSet
+3. TreeSet
+
+HashSet 		: Order is not preserved and is random 
+LinkedHashSet	: Ordered version of the HashSet (ordered by insertion)
+TreeSet			: Ordered version of the HashSet (Ordered by default)
+
+Due to the way the data is stored in the set, the way data is retrieved is different 

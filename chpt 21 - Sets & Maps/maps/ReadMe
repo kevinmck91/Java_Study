@@ -1,0 +1,21 @@
+A Map is an interface
+
+A Map (unlike a Set) is a collection of key/value pairs stored in a certain fashion
+A List can be seen as a type of map where the list index is the key.
+
+Maps are ideal when counting occurrences. Sets are ideal when checking occurrences
+Maps are superior because a Map can be seen as a set with extra functionality (counting the elements)
+A map can be used as a set if needs be, but not the other way around.
+
+
+3 types of Maps can be extended from the Map interface 
+
+1. HashMap
+2. LinkedHashMap
+3. TreeMap
+
+HashMap 		: Order is not preserved and is random 
+LinkedHashMap	: Ordered version of the HashSet (ordered by insertion)
+TreeMap			: Ordered version of the HashSet (Ordered by default)
+
+Due to the way the data is stored in the set, the way data is retrieved is different 
