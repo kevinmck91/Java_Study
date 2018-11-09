@@ -7,11 +7,12 @@
 	<classpathentry kind="src" path="chpt 24 - Lists, Stacks &amp; Queues"/>
 	<classpathentry kind="src" path="chpt 30 - Multithreading Course"/>
 	<classpathentry kind="src" path="chpt 30 - Multithreading Other"/>
-	<classpathentry kind="src" path="chap 23 - Sorting"/>
+	<classpathentry kind="src" path="chpt 23 - Sorting"/>
 	<classpathentry kind="src" path="chpt 31 - Blockchain"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSON"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gson"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/bouncycastle"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

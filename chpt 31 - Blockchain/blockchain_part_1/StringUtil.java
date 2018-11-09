@@ -1,4 +1,4 @@
-package blockchain;
+package blockchain_part_1;
 
 import java.security.MessageDigest;
 
@@ -29,14 +29,16 @@ public class StringUtil {
 	}
 	
 	//Short hand helper to turn Object into a json string
-	public static String getJson(Object o) {
-		return new GsonBuilder().setPrettyPrinting().create().toJson(o);
-	}
+		public static String getJson(Object o) {
+			return new GsonBuilder().setPrettyPrinting().create().toJson(o);
+		}
+		
+		//Returns difficulty string target, to compare to hash. eg difficulty of 5 will return "00000"  
+		public static String getDificultyString(int difficulty) {
+			return new String(new char[difficulty]).replace('\0', '0');
+		}
 	
-	//Returns difficulty string target, to compare to hash. eg difficulty of 5 will return "00000"  
-	public static String getDificultyString(int difficulty) {
-		return new String(new char[difficulty]).replace('\0', '0');
-	}
+	
 	
 	
 }

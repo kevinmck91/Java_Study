@@ -1,21 +1,25 @@
-package blockchain;
+package blockchain_part_1;
 
+import java.security.Security;
 import java.util.ArrayList;
+import java.util.Base64;
 import com.google.gson.GsonBuilder;
 
 public class NoobChain {
 	
 	public static ArrayList<Block> blockchain = new ArrayList<Block>();
-	public static int difficulty = 6;
+	public static int difficulty = 1;
 
 	public static void main(String[] args) {	
 		//add our blocks to the blockchain ArrayList:
 		
 		System.out.println("\n Trying to Mine block 1... ");
-		addBlock(new Block("Hi im the first block", "0")); 	// Create an initial block, mine it, add it to the block chain
+		Block block1 = new Block("Hi im the first block", "0");
+		addBlock(block1); 	// Create an initial block, mine it, add it to the block chain
 		
 		System.out.println("\n Trying to Mine block 2... ");
-		addBlock(new Block("Yo im the second block",blockchain.get(blockchain.size()-1).hash));
+		Block block2 = new Block("Yo im the second block",blockchain.get(blockchain.size()-1).hash);
+		addBlock(block2);
 				
 		System.out.println(" \nTrying to Mine block 3... ");
 		addBlock(new Block("Hey im the third block",blockchain.get(blockchain.size()-1).hash));	
