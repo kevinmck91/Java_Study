@@ -11,6 +11,7 @@
 	<classpathentry kind="src" path="chpt 34 - Blockchain"/>
 	<classpathentry kind="src" path="chpt 35 - Streams"/>
 	<classpathentry kind="src" path="chpt 36 - Design Patterns"/>
+	<classpathentry kind="src" path="chpt 37 - Dynamic Programming"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="module" value="true"/>

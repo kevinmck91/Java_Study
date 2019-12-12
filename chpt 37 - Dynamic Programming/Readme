@@ -1,0 +1,29 @@
+Dynamic Programming
+
+------ 1. Overlapping SubProblems --------
+
+Breaks the problem into Subproblems
+Store the Results of the Subproblem in a table to avoid re-computing
+
+Only relevent to problems where the subproblems are constantly recomputed.
+Fibonacci recursive programs constantly recomputes values.
+
+There are two ways the values can be stored and reused
+-	Memoization (Top down)
+-	Tabluation (Bottom up)
+
+Memoization : 
+Similar to the hash table, the array/table is filled with Null. If we look up an uncomputed number, its omputed and added to the slot in the table.
+
+Tabluation :
+The tabluated program builds a table in the bottom up fashion
+Ie. Calculate fib(1), then fib(2) then feb(3) etc.
+
+Memoization VS Tabluation : 
+Memoization doesnt necessarly fill every slot of the array
+
+
+------ 1. Optimal SubStructure --------
+
+A problem has a Optimal Solution by combining the optimal solutions of its subproblems.
+Eg Graph Theory
