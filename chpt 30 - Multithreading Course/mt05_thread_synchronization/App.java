@@ -56,7 +56,7 @@ public class App {
 
 		try {
 			t2.join();
-		} catch (InterruptedException e) { // TODO Auto-generated catch block
+		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 
