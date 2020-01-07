@@ -1,20 +1,25 @@
 package stopwatch;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Stopwatch {
 	
 	private long startTime;
 	private long endTime;
 	private long elapsedTime;
-	
+	SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss:SSS");
 	
 	public void startTimer(){
+		Date date = new Date();
 		setStartTime(System.currentTimeMillis());
-		System.out.println("Timer has started at : " + System.currentTimeMillis());
+		System.out.println("Timer has started at : " + simpleDateFormat.format(date));
 	}
 	
 	public void endTimer(){
+		Date date = new Date();
 		setEndTime(System.currentTimeMillis());
-		System.out.println("Timer has ended  : " + System.currentTimeMillis());
+		System.out.println("Timer has ended  : " + simpleDateFormat.format(date));
 		setElapsedTime(endTime - startTime);
 	}
 	

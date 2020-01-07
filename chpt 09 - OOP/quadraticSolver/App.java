@@ -4,9 +4,9 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		double a = 17;
-		double b = -31;
-		double c = 5;
+		double a = -3;
+		double b = 5;
+		double c = 3;
 		
 		Quadratic equation = new Quadratic(a, b, c);
 		

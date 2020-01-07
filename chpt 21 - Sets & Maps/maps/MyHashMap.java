@@ -18,6 +18,8 @@ public class MyHashMap {
 		hashMap.put("paul", 26);
 		hashMap.put("eoin", 27);
 		hashMap.put("rich", 25);
+		hashMap.put("kevin", 30);
+		
 		
 		System.out.println(hashMap);
 
