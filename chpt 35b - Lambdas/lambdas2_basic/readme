@@ -1,0 +1,6 @@
+ A lambda is simply a method assigned to a variable
+ Access modifier - Not required
+ Return type - Not required (Compilers knows from the return statement) Method
+ name - not required 
+ {} - Only required if code spans 2+ lines return
+ Statement - Only required if code spans 2+ lines -> arrow symbol . Required between parameters and body
